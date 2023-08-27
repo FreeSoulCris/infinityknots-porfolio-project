@@ -1,0 +1,8 @@
+body {
+  background-image: url(/images/background-pattern.png);
+}
+
+.website-width {
+  width: 99%;
+  background-color: white;
+}
