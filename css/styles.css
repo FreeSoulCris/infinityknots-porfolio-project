@@ -1,36 +1,58 @@
+:root {
+  --primary-color: #96700f;
+  --secondary-color: #70550f;
+  --box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  --text-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+}
+
 body {
   background-image: url(/images/background-pattern.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.website-width {
-  width: 95%;
-  background-color: white;
-  margin-top: 100px !important;
-  margin: 0 auto;
-}
-
 h1 {
   font-family: "Luxurious Roman", cursive;
-  color: #96700f;
+  color: var(--primary-color);
   font-weight: 600;
+  font-size: 58px;
+  text-shadow: var(--text-shadow);
 }
 h2 {
   font-family: "Julius Sans One", sans-serif;
-  color: #70550f;
+  color: var(--secondary-color);
+  text-shadow: var(--text-shadow);
 }
 p {
   font-family: "Quicksand", sans-serif;
+  line-height: 1.15;
+}
+.hero {
+  text-align: center;
+  margin: 0 auto;
+  padding: 160px 40px;
 }
 
-.welcome-text-hp {
-  text-align: center;
+.hero p {
+  font-size: 14px;
+  line-height: 1.05;
 }
 
-.brand-name-hp {
-  text-align: center;
+button {
+  background-color: var(--secondary-color);
+  color: #fff;
+  font-family: "Julius Sans One", sans-serif;
+  text-shadow: var(--text-shadow);
+  border-radius: 10px;
+  border: 2px double var(--primary-color);
+  box-shadow: var(--box-shadow);
+  margin-top: 10px;
+  font-weight: 400;
+  padding: 5px 10px;
 }
-.description-text-hp p {
-  text-align: center;
+
+button:hover {
+  background-color: rgba(145, 111, 71, 30%);
+  color: var(--secondary-color);
+  transition: all 0.4s ease-in-out;
 }
