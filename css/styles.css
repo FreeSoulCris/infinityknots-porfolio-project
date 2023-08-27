@@ -1,8 +1,36 @@
 body {
   background-image: url(/images/background-pattern.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .website-width {
-  width: 99%;
+  width: 95%;
   background-color: white;
+  margin-top: 100px !important;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Luxurious Roman", cursive;
+  color: #96700f;
+  font-weight: 600;
+}
+h2 {
+  font-family: "Julius Sans One", sans-serif;
+  color: #70550f;
+}
+p {
+  font-family: "Quicksand", sans-serif;
+}
+
+.welcome-text-hp {
+  text-align: center;
+}
+
+.brand-name-hp {
+  text-align: center;
+}
+.description-text-hp p {
+  text-align: center;
 }
