@@ -26,6 +26,7 @@ h2 {
 p {
   font-family: "Quicksand", sans-serif;
   line-height: 1.15;
+  font-size: 26px;
 }
 
 h5 {
@@ -45,20 +46,25 @@ h5 {
   opacity: 94%;
   border-radius: 10px;
 }
-.hero {
+.content {
   text-align: center;
   margin: 0 auto;
   padding: 160px 40px;
   opacity: 99%;
 }
 
+.about-content {
+  width: 98%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
 .hero p {
   font-size: 20px;
   line-height: 1.05;
   margin-top: 30px;
 }
 
-button {
+.homepage-buttons button {
   background-color: var(--primary-color);
   color: #fff;
   font-family: "Julius Sans One", sans-serif;
@@ -70,7 +76,7 @@ button {
   padding: 15px 25px;
 }
 
-button:hover {
+.homepage-buttons button:hover {
   background-color: rgba(145, 111, 71, 19%);
   color: var(--secondary-color);
   transition: all 0.4s ease-in-out;
@@ -84,7 +90,30 @@ button:hover {
   max-width: 360px;
   max-height: 360px;
   border-radius: 10px;
-  text-shadow: 2px 2px 4px #000000 !important;
+}
+
+#about-macrame-carousel img button {
+  max-width: 360px;
+  max-height: 360px;
+}
+#about-macrame-carousel img:hover {
+  transform: none;
+}
+
+#about-infinityknots-carousel img button {
+  max-width: 360px;
+  max-height: 360px;
+}
+#about-infinityknots-carousel img:hover {
+  transform: none;
+}
+
+#about-freesoulcriss-carousel img button {
+  max-width: 360px;
+  max-height: 360px;
+}
+#about-freesoulcriss-carousel img:hover {
+  transform: none;
 }
 
 img:hover {
