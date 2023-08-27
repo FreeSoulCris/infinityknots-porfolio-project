@@ -46,6 +46,14 @@ h5 {
   opacity: 94%;
   border-radius: 10px;
 }
+
+.navbar {
+  text-decoration: none;
+  font-family: "Marcellus SC", serif;
+  text-align: right;
+  display: flex;
+}
+
 .content {
   text-align: center;
   margin: 0 auto;
