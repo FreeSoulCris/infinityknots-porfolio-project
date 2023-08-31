@@ -28,10 +28,45 @@
   </head>
   <body>
     <div class="web-container">
-     <div class="navbar row">
-        <a href="/index.html" >Homepage</a>
-        <a href="#">About</a>
-      </div>
+      <nav class="navbar navbar-expand-lg sticky-top rounded" style="background-color: #DFDEDF; width: 100%; margin-top: -140px;">
+  <div class="container-fluid">
+    <img src="/images/InfinityKnots/logo2-nombre- transparente - Copy.png" alt="Logo" width="115" height="100" class="d-inline-block align-text-top" style=" border-radius: 50%;">
+      
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"
+    style="color:#96700f; ">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"
+          style="font-size:30px" >Home</a>
+        </li>
+        <li class="nav-item" >
+          <a class="nav-link" href="/products.html" style="color:#96700f;font-size:30px">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/gallery.html" style="color:#96700f;font-size:30px">Gallery</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:#96700f;font-size:30px">
+            About
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/about.html#about-macrame" style="font-size:26px">Macramé</a></li>
+            <li><a class="dropdown-item" href="/about.html#about-infinityknots" style="font-size:26px">Infinity Knots Atelier</a></li>
+            <li><a class="dropdown-item" href="/about.html#about-freesoulcriss" style="font-size:26px">Free Soul Criss</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact.html" style="color:#96700f;font-size:30px">Contact</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
       <div class="row">
         <div class="col-sm-6">
           <div id="about-macrame-carousel" class="carousel slide">
@@ -110,7 +145,7 @@
           </div>
         </div>
         <div class="col-sm-6">
-          <h2 class="mb-3">About Macramé</h2>
+          <h2 class="mb-3" id="about-macrame">About Macramé</h2>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto,
             omnis debitis. Quia labore et expedita odit. Minus corporis at
@@ -131,10 +166,10 @@
           </div>
         </div>
       </div>
-
+<hr>
       <div class="row mt-5">
         <div class="col-sm-6">
-          <h2 class="mb-3">About Infinity Knots Atelier</h2>
+          <h2 class="mb-3" id="about-infinityknots">About Infinity Knots Atelier</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
             laboriosam quis quae dolor accusantium, nulla reiciendis tempora,
@@ -155,6 +190,7 @@
             >
           </div>
         </div>
+        
         <div class="col-sm-6">
           <div id="about-infinityknots-carousel" class="carousel slide">
             <div class="carousel-indicators">
@@ -193,7 +229,7 @@
                   src="/images/InfinityKnots/manisar-vest-back-no-border.jpg"
                   class="d-block w-100 img-fluid rounded"
                   alt="..."
-                  style="box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6)"
+                  style="box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);"
                 />
               </div>
               <div class="carousel-item">
@@ -201,7 +237,7 @@
                   src="/images/InfinityKnots/hat-hanger-no-border.jpg"
                   class="d-block w-100 img-fluid rounded"
                   alt="..."
-                  style="box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6)"
+                  style="box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);"
                 />
               </div>
             </div>
@@ -232,6 +268,7 @@
           </div>
         </div>
       </div>
+      <hr>
       <div class="row mt-5">
           <div class="col-sm-6">
             <div id="about-freesoulcriss-carousel" class="carousel slide">
@@ -260,7 +297,7 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="/images/Freesoulcriss/van.jpg"
+                    src="/images/Freesoulcriss/rollers.JPEG"
                     class="d-block w-100 img-fluid rounded"
                     alt="..."
                     style="box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6)"
@@ -311,7 +348,7 @@
           </div>
 
           <div class="col-sm-6">
-            <h2 class="mb-3">About FreeSoulCriss</h2>
+            <h2 class="mb-3" id="about-freesoulcriss">About FreeSoulCriss</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
               laboriosam quis quae dolor accusantium, nulla reiciendis tempora,
