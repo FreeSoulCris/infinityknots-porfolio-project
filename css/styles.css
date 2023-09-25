@@ -183,9 +183,10 @@ footer .order-inquiry {
 footer .email-link {
   text-decoration: none;
   color: var(--primary-color);
-  padding: 20px;
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Quicksand", sans-serif;
+  text-align: center;
+  width: 90%;
 }
 
 footer .email-link:hover {
@@ -218,6 +219,35 @@ footer .website-info a {
   color: var(--primary-color);
 }
 footer .website-info a:hover {
+  color: var(--secondary-color);
+}
+
+.contact-title h2 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+.contact-img {
+  max-width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  opacity: 99%;
+}
+
+.contact-details h3 {
+  font-family: "Quicksand", sans-serif;
+}
+
+.contact-details a {
+  font-family: "Quicksand", sans-serif;
+  margin: 0 100px;
+  margin-top: 40px;
+  color: var(--primary-color);
+  padding: 10px 14px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.contact-details a:hover {
   color: var(--secondary-color);
 }
 
@@ -288,5 +318,8 @@ footer .website-info a:hover {
 
   .mb-3 {
     margin: 0;
+  }
+  .contact-details img {
+    max-width: 200px !important;
   }
 }
