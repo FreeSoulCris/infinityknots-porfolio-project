@@ -104,6 +104,10 @@ h5 {
   border-radius: 10px;
 }
 
+.img-carrusel {
+  height: 300px;
+}
+
 #about-macrame-carousel img button {
   max-width: 360px !important;
   max-height: 360px !important;
@@ -160,8 +164,61 @@ img:hover {
 }
 
 footer {
-  background-color: #dfdedf;
   margin-bottom: -140px !important;
+  background-color: #dfdedf;
+}
+
+footer .contact-box {
+  width: 75%;
+  margin: 0 auto;
+}
+
+footer .contact-email {
+  margin-bottom: 30px;
+}
+
+footer .order-inquiry {
+  margin-top: 40px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: var(--primary-color);
+  padding: 20px;
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+}
+
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  margin-top: 40px;
+  color: var(--primary-color);
+  background-color: rgba(249, 247, 245, 0.4);
+  padding: 10px 14px;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  color: #fff;
+  background-color: var(--secondary-color);
+}
+
+footer .website-info {
+  color: var(--secondary-color);
+  padding: 10px;
+  margin-top: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+footer .website-info a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+footer .website-info a:hover {
+  color: var(--secondary-color);
 }
 
 @media (max-width: 820px) {
