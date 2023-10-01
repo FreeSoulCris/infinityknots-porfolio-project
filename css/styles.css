@@ -39,7 +39,6 @@ h5 {
 }
 
 .web-container {
-  text-align: center;
   margin: 0 auto;
   padding: 160px 40px;
   background-color: #fff;
@@ -48,6 +47,15 @@ h5 {
   margin-bottom: 1%;
   opacity: 94%;
   border-radius: 10px;
+}
+.web-container h1,
+h2,
+h5 {
+  text-align: center;
+}
+
+.description-text-hp {
+  text-align: center;
 }
 
 .navbar {
@@ -86,6 +94,7 @@ h5 {
   box-shadow: var(--box-shadow);
   margin-top: 10px;
   padding: 15px 25px;
+  text-align: center;
 }
 
 .homepage-buttons button:hover {
@@ -175,6 +184,7 @@ footer .contact-box {
 
 footer .contact-email {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 footer .order-inquiry {
@@ -199,7 +209,7 @@ footer .social-links a {
   color: var(--primary-color);
   background-color: rgba(249, 247, 245, 0.4);
   padding: 10px 14px;
-  font-size: 20px;
+  font-size: 30px;
   border-radius: 50%;
 }
 
@@ -213,6 +223,7 @@ footer .website-info {
   padding: 10px;
   margin-top: 20px;
   font-family: "Quicksand", sans-serif;
+  text-align: center;
 }
 footer .website-info a {
   text-decoration: none;
@@ -235,16 +246,16 @@ footer .website-info a:hover {
 
 .contact-details h3 {
   font-family: "Quicksand", sans-serif;
+  text-align: left;
 }
 
 .contact-details a {
   font-family: "Quicksand", sans-serif;
-  margin: 0 100px;
   margin-top: 40px;
   color: var(--primary-color);
   padding: 10px 14px;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .contact-details a:hover {
@@ -321,5 +332,8 @@ footer .website-info a:hover {
   }
   .contact-details img {
     max-width: 200px !important;
+  }
+  footer .email-link {
+    font-size: 20px;
   }
 }

@@ -36,7 +36,7 @@
     style="color:#96700f; ">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse nav justify-content-end">
+    <div class="collapse navbar-collapse nav justify-content-end" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/index.html"
@@ -65,114 +65,107 @@
   </div>
 </nav>
 
-      <div class="row">
-        <div class="col-sm-6">
-          <div id="about-macrame-carousel" class="carousel slide">
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#about-macrame-carousel"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#about-macrame-carousel"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#about-macrame-carousel"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="img-carrusel">
-                <img
-                  src="/images/Macrame/macrame-wall-decoration.jpg"
-                  class="d-block w-100 img-fluid rounded"
-                  alt="..."
-                  style="box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6); object-fit: contain; height: inherit;"
-                />
+<div class="row mt-5">
+          <div class="col-sm-6">
+            <div id="about-macrame-carousel" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#about-macrame-carousel"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#about-macrame-carousel"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#about-macrame-carousel"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="/images/Macrame/macrame-wall-decoration.jpg"
+                    class="d-block w-100 img-fluid rounded"
+                    alt="..."
+                    style="box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6)"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/images/Macrame/macrame-bag-outfit.jpg"
+                    class="d-block w-100 img-fluid rounded"
+                    alt="..."
+                    style="box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6)"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/images/Macrame/macrame-brown-beach-bag.jpg"
+                    class="d-block w-100 img-fluid rounded"
+                    alt="..."
+                    style="box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6)"
+                  />
                 </div>
               </div>
-              <!--
-              <div class="carousel-item">
-                
-                <img
-                  src="/images/Macrame/macrame-bag-outfit.jpg"
-                  class="d-block w-100 img-fluid rounded"
-                  alt="..."
-                  style="box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6)"
-                />
-              </div>
-            -->
-            <!--
-              <div class="carousel-item">
-                
-                <img
-                  src="/images/Macrame/macrame-brown-beach-bag.jpg"
-                  class="d-block w-100 img-fluid rounded"
-                  alt="..."
-                  style="box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6)"
-                />
-                -->
-              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#about-macrame-carousel"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#about-macrame-carousel"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#about-macrame-carousel"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#about-macrame-carousel"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-        </div>
-        
-        <div class="col-sm-6">
-          <h2 class="mb-3" id="about-macrame">About Macramé</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto,
-            omnis debitis. Quia labore et expedita odit. Minus corporis at
-            officia in fugit maxime, quas nisi, ullam nemo itaque quos enim?
-          </p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, nisi! Pariatur quos vel magnam esse dolorem culpa est debitis explicabo reprehenderit deleniti? At consequuntur necessitatibus minus repellat nobis veniam facilis!</p>
+
+          <div class="col-sm-6">
+            <h2 class="mb-3" id="macrame">About Macramé</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              laboriosam quis quae dolor accusantium, nulla reiciendis tempora,
+              provident vero a accusamus sit? Esse qui eligendi rerum possimus,
+              repellendus dolor labore.
+            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, nisi! Pariatur quos vel magnam esse dolorem culpa est debitis explicabo reprehenderit deleniti? At consequuntur necessitatibus minus repellat nobis veniam facilis!</p>
 
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti odit ipsa autem doloremque aliquam a consequuntur iste mollitia hic deleniti, nam soluta, eum laudantium? Fuga repellendus et deleniti eveniet explicabo.</p>
-          <div class="mt-5">
-            <a
-              href="/images/InfinityKnots/manisar-vest-back.JPG"
-              class="primary-link project link"
-              title="Women in Rock"
-              target="_blank"
-            >
-              View More</a
-            >
+            <div class="mt-5">
+              <a
+                href="/images/InfinityKnots/hat-hanger.jpg"
+                class="primary-link project link"
+                title="world clock app"
+                target="_blank"
+              >
+                View More</a
+              >
+            </div>
           </div>
         </div>
-      </div>
 <hr>
       <div class="row mt-5">
         <div class="col-sm-6">
@@ -377,7 +370,7 @@
             </div>
           </div>
         </div>
-      </div>
+      
       <div>
           <footer class="container-fluid rounded">
           <div class="contact-box d-flex justify-content-around ">
@@ -387,10 +380,10 @@
             <div class="mt-5 contact-button"><a href="/contact.html" class="btn primary-link project-link">Contact Me</a></div>
             
           </div>
-
+          <br>
+          <br>
           <div class="contact-email flex "><a href="mailto:infinityknotsatelier@gmail.com" class="email-link"> infinityknotatelier@gmail.com</a></div>
-        
-        <div class="social-links flex ">
+        <div class="social-links d-flex justify-content-center">
           <a href="https://instagram.com/infinityknot.atelier" target="_blank"><i class="fab fa-instagram"></i></a>
           <a href="https://www.tiktok.com/@infinityknot.atelier" target="_blank"><i class="fab fa-tiktok fa-sm" ></i></a>
           <a href="mailto:infinityknotsatelier@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
@@ -401,11 +394,7 @@
            </div>      
       </div>
       </footer>
-        
-        
-  
-    </div>
-    </div>
+       </div> 
     
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
